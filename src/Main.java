@@ -50,8 +50,6 @@ public class Main {
         balao1.setIndeti("Caça");
         balao1.setRegistro("321");
 
-        System.out.println(balao1);
-
         //Testando alguns valorez
 
         System.out.println(pessoa1.getNome());
