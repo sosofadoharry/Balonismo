@@ -4,19 +4,19 @@ public class Balao {
     public String indeti;
     public String registro;
 
-    //Construtor padrão
+    //Construtores
     public Balao(){
         this.indeti = "15";
         this.registro = "indisponivel";
     }
 
-    //Construtor que solicita todos os dados
+    
     public Balao(String identi, String registro){
         this.indeti = identi;
         this.registro = registro;
     }
 
-    //Construtor personalizado
+   
 
     public Balao(String indeti){
         this.indeti = indeti;

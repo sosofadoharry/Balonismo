@@ -7,7 +7,7 @@ public class Pessoa{
         public String TelContado;
         public String Endereço;
 
-        //Construtor padrao
+        //Construtores
         public Pessoa(){
             this.nome = "Rei";
             this.Cpf = "Cpf";
@@ -17,7 +17,7 @@ public class Pessoa{
             this.Endereço = "Endereço";
         }
 
-        //Construtor personalizdo
+        
         public Pessoa(String nome, String Cpf,String RG,String Telefone,String TelContado,String Endereço){
             this.nome = nome;
             this.Cpf = Cpf;
@@ -27,7 +27,7 @@ public class Pessoa{
             this.Endereço = Endereço;
         }
 
-        //Contrutor personalizado
+        
 
         public Pessoa(String nome,String Telefone){
             this.nome = nome;

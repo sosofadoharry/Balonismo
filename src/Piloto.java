@@ -5,21 +5,21 @@ public class Piloto {
     public String Cpf;
     public String numeroRegistro;
 
-    //Construtor padrão
+    //Construtores
     public Piloto(){
         this.nome = "Carlos";
         this.Cpf = "098877621";
         this.numeroRegistro = "22";
     }
 
-    //Construtor personalizado
+    
     public Piloto(String nome, String Cpf, String numeroRegistro){
         this.nome = nome;
         this.Cpf = Cpf;
         this.numeroRegistro = numeroRegistro;
     }
 
-    //Contrutor personalizado
+
 
     public Piloto(String nome){
         this.nome = "Carlos";
