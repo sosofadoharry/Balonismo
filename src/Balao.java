@@ -12,6 +12,7 @@ public class Balao {
 
     
     public Balao(String identi, String registro){
+        
         this.indeti = identi;
         this.registro = registro;
     }

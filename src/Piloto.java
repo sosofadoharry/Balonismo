@@ -11,6 +11,7 @@ public class Piloto {
         this.Cpf = "098877621";
         this.numeroRegistro = "22";
     }
+    
 
     
     public Piloto(String nome, String Cpf, String numeroRegistro){
